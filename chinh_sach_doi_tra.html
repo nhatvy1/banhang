@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chương trình membership - SomeHow</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="./assets/css/chuongtrinh_member.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="topHead">
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+            
+            <div class="head__sex">
+               <div class="headsex">
+                   <a href="">NAM</a>
+                   <a href="">NỮ</a>
+               </div>
+            </div>
+
+            <div class="head__logo">
+                <div class="head__logo-img">
+                    <a href="./index.html">
+                        <img src="./assets/images/logo.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+    
+            <div class="head__user">
+                <div class="head__user--account">
+                    <div class="user">
+                        <a href="">
+                            <span><i class="fa-solid fa-user"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="head__user--cart">
+                    <div class="cart">
+                        <span><i class="fa-solid fa-bag-shopping"></i></span>
+                        <span>0</span>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    
+        <!-- Menu -->
+        <div class="menu">
+            <div class="menu__list">
+                <div class="hamburgerClose">
+                    <span><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <ul>
+                    <li class="menu-link">
+                        <a href="#">Trang chủ</a>
+                    </li>
+                    <li class="menu-link">
+                        <a>Bộ sưu tập<i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <ul >
+                                <li class="dropdown-link">
+                                    <a href="#">The Partner</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">AfterGlow</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Skateboard</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Không có gì</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Night Pool</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-link">
+                        <a>Sản phẩm<i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link">
+                                    <a href="#">Sản phẩm mới</a>
+                                </li>   
+                                <li class="dropdown-link">
+                                    <a href="#">Sale off: 50%</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a>Áo<i class="fas fa-caret-down"></i></a>
+                                    <div class="dropdown second">
+                                        <ul>
+                                            <li class="dropdown-link">
+                                                <a href="#">Áo khoác</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Áo thun</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Áo polo</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Áo sơmi</a>
+                                            </li>
+                                            <li class="dropdown-link"> 
+                                                <a href="">Áo nỉ</a>
+                                            </li>
+                                            <li class="dropdown-link"> 
+                                                <a href="">Áo ba lỗ</a>
+                                            </li>
+                                            <li class="dropdown-link"> 
+                                                <a href="">Áo blazer</a>
+                                            </li>
+                                            <li class="dropdown-link"> 
+                                                <a href="">Áo len</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a>Quần<i class="fas fa-caret-down"></i></a>
+                                    <div class="dropdown second">
+                                        <ul>
+                                            <li class="dropdown-link">
+                                                <a href="#">Quần Jean</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Quần Short</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Quần Tây</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Quần Kaki</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Quần Jogger - Quần dài</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Sét quần áo</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Giày - dép</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Vớ</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Mắt kính</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Nón</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Thắt lưng</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Ví</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Balo - Túi đeo</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Phụ kiện khác</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-link">
+                        <a href="#">Mix & match</a>
+                    </li>
+                    <li class="menu-link">
+                        <a>Hướng dẫn chính sách<i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link">
+                                    <a href="./chuong_trinh_member.html">Chương trình membership</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="./chinh_sach_doi_tra.html">Chính sách đổi trả</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- <li class="menu-link">
+                        <a href="#">Hệ thống cửa hàng</a>
+                    </li> -->
+                    <li class="menu-link">
+                        <a href="#">Giới thiệu</a>
+                    </li>
+                </ul>
+            </div>
+            <form action="">
+                <div class="menu__search">
+                    <div class="menu__search--input">
+                        <input type="search" placeholder="#SomeHow">
+                    </div>
+                    <div class="menu__search--button">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Gio hang -->
+        <div class="giohang">
+            <div class="hamburgerClose">
+                <span><i class="fa-solid fa-xmark"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="member">
+        <div class="member__text">Trang chủ <span>/ Chính sách đổi trả</span></div>
+        <div class="member__text size">Chính sách đổi trả</div>
+        <div class="doitra__text grid wide">
+            <div class="text">
+                <p>Chúng tôi hy vọng bạn thích những gì bạn đặt ! Tuy nhiên, trong trường hợp bạn không hài lòng 100%, chúng tôi đã có quy trình đổi trả rất đơn giản:</p>
+                <p>- Khách hàng <strong>được đổi hoặc trả</strong> sản phẩm <strong>trong vòng 10 ngày</strong> kể từ ngày nhận được sản phẩm.</p>
+                <p>- Với bất kì sản phẩm nào được đặt tại SomeHow gồm cả sản phẩm khuyến mãi ( chỉ ngoại trừ boxer, vớ): chưa qua sử dụng và còn tem mác như ban đầu được đính kèm.</p>
+                <p>- Trường hợp đổi, <strong>khách hàng sẽ chịu chi phí vận chuyển chỉ với 20.000 VNĐ</strong>, và SomeHow sẽ 
+                    <strong>giao lại hàng miễn phí </strong>cho khách hàng. Với trường hợp lỗi thuộc về SomeHow, bạn sẽ không mất chi phí gì nhé. 
+                </p>
+                <p><strong>* 3 Bước nhanh chóng để đổi: </strong></p>
+                <p><strong>Bước 1:</strong> Điền thông tin đổi hàng <a href="" style="color: lightblue;">Ở ĐÂY</a> .</p>
+                <p><strong>Bước 2: </strong>Nhận cuộc gọi xác nhận từ SomeHow qua số hotline 0287 307 64 64 về sản phẩm và thời gian nhận hàng.</p>
+                <p><strong>Bước 3:</strong>Ngay khi xác nhận chúng tôi sẽ gởi bạn đơn hàng mới, bạn chỉ cần gởi hàng cần đổi cho shipper là được.</p>
+                <p>** Trường hợp trả, <strong> Somehow sẽ hoàn lại tiền hàng</strong> (không bao gồm tiền phí vận chuyển nếu có) cho khách
+                    <strong>trong vòng 24h qua tài khoản của khách</strong>  ngay khi Somehow nhận được hàng trả. Form trả hàng <a href="" style="color: lightblue;">Ở ĐÂY</a>
+                </p>
+                <p><strong>Lưu ý:</strong></p>
+                <p>⁃ SomeHow hỗ trợ tối đa trả hàng 3 lần / 1 khách hàng.</p>
+                <p>⁃ SomeHow có quyền quyết định dừng việc hỗ trợ đổi trả lại cho khách hàng nếu phát hiện khách hàng sử dụng chính sách để trục lợi (như việc đổi trả quá nhiều lần).</p>
+                <br><br>
+                <p>** Trong trường hợp gỡ hết tem mác và đã sử dụng mới phát hiện sản phẩm bị lỗi, vui lòng liên hệ với SomeHow để chúng tôi kiểm tra. Nếu đó là lỗi của SomeHow, chúng tôi vẫn sẽ hỗ trợ đổi trả cho khách hàng</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-4 m-6 c-12">
+                    <div class="item">
+                        <h2>TP. Hồ Chí Minh</h2>
+                        <div>
+                            <ul class="address">
+                                <li class="address__List">
+                                        <span>Store 1:</span> 17bis Huỳnh Đình Hai Phường 14 - Quận Bình Thạnh  
+                                </li>
+                                <li class="address__List">
+                                        <span>Store 2:</span>  332 Cao Đạt Phường 1 - Quận 5
+                                </li>
+                                <li class="address__List">
+                                        <span>Store 3:</span>  188/16 Thành Thái Phường 12 Quận 10
+                                </li>
+                                <li class="address__List">
+                                        <span>Store 4:</span> 1002 Quang Trung, Phường 8, Quận Gò Vấp
+                                </li>
+                                <li class="address__List">
+                                        <span>Store 5:</span> 164-166 Trường Chinh, Phường 13, Quận Tân Bình
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-6 c-12">
+                    <div class="item">
+                        <h2>TP. Hà Nội</h2>
+                        <div>
+                            <ul class="address">
+                                <li class="address__List">
+                                        <span>Store 1:</span> 17bis Huỳnh Đình Hai Phường 14 - Quận Bình Thạnh  
+                                </li>
+                                <li class="address__List">
+                                        <span>Store 2:</span>  332 Cao Đạt Phường 1 - Quận 5
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-6 c-12">
+                    <div class="item">
+                        <h2>HỖ TRỢ (9:00 - 21:00)</h2>
+                        <div class="item__list">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <div><img src="./assets/images/icon_fbn_11zon.jpg" alt=""></div>
+                                        <div>0332650824</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div><img src="./assets/images/icon_instan_11zon.jpg" alt=""></div>
+                                        <div>0332650824</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h2>THEO DÕI CHÚNG TÔI</h2>
+                        <div class="item__list-fb-ig">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <div><img src="./assets/images/img-payment_11zon.jpg" alt=""></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div><img src="./assets/images/thongbao_11zon.jpg" alt=""></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h2>PHƯƠNG THỨC THANH TOÁN</h2>
+                        <div class="item__list-pay">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <div><img src="./assets/images/img-payment.webp" alt=""></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div><img src="./assets/images/thongbao.webp" alt=""></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <p class="footer__text">© Since 2015 SOMEHOW</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="heart">
+        <!-- <svg fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+        </svg> -->
+        <div>
+            <span>
+                <i class="fa-solid fa-heart"></i>
+            </span>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
